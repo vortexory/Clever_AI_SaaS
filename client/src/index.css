@@ -50,7 +50,7 @@
 
 @layer base {
   * {
-    @apply border-border;
+    border-color: theme("colors.border"); /* NOT @apply here */
   }
 
   body {
