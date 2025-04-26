@@ -49,10 +49,6 @@
 }
 
 @layer base {
-  * {
-    border-color: theme("colors.border"); /* NOT @apply here */
-  }
-
   body {
     @apply font-sans antialiased bg-background text-foreground;
   }
