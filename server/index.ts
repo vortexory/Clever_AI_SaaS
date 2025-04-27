@@ -61,7 +61,7 @@ app.use((req, res, next) => {
   // It is the only port that is not firewalled.
   const port = 5000;
   server.listen({
-    port,
+    port, 
     host: "https://cleveraisaas.vercel.app/"
   }, () => {
     log(`serving on port ${port}`);
